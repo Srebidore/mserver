@@ -1,47 +1,28 @@
-[13:05:58] [ServerMain/INFO]: Building unoptimized datafixer
-[13:05:59] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13:06:00] [ServerMain/INFO]: Loaded 7 recipes
-[13:06:00] [ServerMain/INFO]: Loaded 1179 advancements
-[13:06:01] [Server thread/INFO]: Starting minecraft server version 1.19.3
-[13:06:01] [Server thread/INFO]: Loading properties
-[13:06:01] [Server thread/INFO]: Default game type: SURVIVAL
-[13:06:01] [Server thread/INFO]: Generating keypair
-[13:06:01] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:06:01] [Server thread/INFO]: Using epoll channel type
-[13:06:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:06:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:06:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:06:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:06:01] [Server thread/INFO]: Preparing level "world"
-[13:06:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:06:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:06:04] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[13:06:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:06:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:06:04] [Worker-Main-4/INFO]: Preparing spawn area: 1%
-[13:06:05] [Server thread/INFO]: Time elapsed: 2446 ms
-[13:06:05] [Server thread/INFO]: Done (3.852s)! For help, type "help"
-[13:06:11] [Server thread/INFO]: J3Z[/127.0.0.1:55152] logged in with entity id 91 at (55.5, 79.0, -265.5)
-[13:06:11] [Server thread/INFO]: J3Z joined the game
-[13:11:05] [Server thread/INFO]: J3Z lost connection: Disconnected
-[13:11:05] [Server thread/INFO]: J3Z left the game
-[13:11:06] [Server thread/INFO]: J3Z[/127.0.0.1:38462] logged in with entity id 749 at (55.59409587264641, 80.0, -302.27404899069614)
-[13:11:06] [Server thread/INFO]: J3Z joined the game
-[13:16:47] [Server thread/INFO]: J3Z has made the advancement [Sweet Dreams]
-[13:17:35] [Server thread/INFO]: J3Z fell from a high place
-[13:17:46] [Server thread/INFO]: J3Z lost connection: Disconnected
-[13:17:46] [Server thread/INFO]: J3Z left the game
-[13:18:21] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: Input/output error
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
-	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
-	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
-	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
-	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
-	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
-	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
-	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
-	at agn$1.run(SourceFile:89) ~[server-1.19.3.jar:?]
+[13:35:05] [ServerMain/INFO]: Building unoptimized datafixer
+[13:35:05] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:35:06] [ServerMain/INFO]: Loaded 7 recipes
+[13:35:06] [ServerMain/INFO]: Loaded 1179 advancements
+[13:35:07] [Server thread/INFO]: Starting minecraft server version 1.19.3
+[13:35:07] [Server thread/INFO]: Loading properties
+[13:35:07] [Server thread/INFO]: Default game type: SURVIVAL
+[13:35:07] [Server thread/INFO]: Generating keypair
+[13:35:07] [Server thread/INFO]: Starting Minecraft server on *:25555
+[13:35:07] [Server thread/INFO]: Using epoll channel type
+[13:35:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:35:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:35:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:35:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:35:07] [Server thread/INFO]: Preparing level "world"
+[13:35:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:35:11] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[13:35:11] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[13:35:11] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[13:35:11] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[13:35:11] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[13:35:11] [Worker-Main-5/INFO]: Preparing spawn area: 47%
+[13:35:11] [Server thread/INFO]: Time elapsed: 2796 ms
+[13:35:11] [Server thread/INFO]: Done (4.055s)! For help, type "help"
+[13:35:11] [Server thread/INFO]: Stopping server
+[13:35:11] [Server thread/INFO]: Saving players
+[13:35:11] [Server thread/INFO]: Saving worlds
+[13:35:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
